@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    min-height: 150px;
+}
+
+.box {
+    min-height: 100px;
+    background-color: darkgreen;
+    margin: 15px 0;
+}
+
+.bg-dark {
+    background-color: #3A546D;
+}
+
+.navbar-my-theme {
+    background-color: #2C3E50;
+}
+
+.navbar-my-theme .navbar-brand, .navbar-my-theme li > a {
+    color: white;
+}
+
+.navbar-my-theme .nav li > a:focus,
+.navbar-my-theme .nav li > a:hover {
+    background-color: #3A546D;
+}
+
+.bg-green {
+    background-color: #1ABC9C;
+}
+
+footer {
+    height: 60px;
+}
+
+.my-img-container {
+    max-width: 200px;
+}
