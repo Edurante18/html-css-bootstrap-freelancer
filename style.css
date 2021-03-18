@@ -1,28 +1,22 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 section {
     min-height: 150px;
 }
 
-.box {
-    min-height: 100px;
-    background-color: darkgreen;
-    margin: 15px 0;
+.text-white {
+    color: white;
 }
 
-.bg-dark {
-    background-color: #3A546D;
+.box {
+    margin: 15px 0;
 }
 
 .navbar-my-theme {
     background-color: #2C3E50;
+    margin: 0;
 }
 
-.navbar-my-theme .navbar-brand, .navbar-my-theme li > a {
+.navbar-my-theme .navbar-brand, 
+.navbar-my-theme li > a {
     color: white;
 }
 
@@ -31,14 +25,113 @@ section {
     background-color: #3A546D;
 }
 
-.bg-green {
-    background-color: #1ABC9C;
+.navbar-my-theme .navbar-toggle {
+    color: white;
 }
 
-footer {
-    height: 60px;
+.navbar-my-theme .navbar-toggle .icon-bar {
+    background-color: white;
+}
+
+section.bg-green {
+    background-color: #1ABC9C;
+    margin: 0;
+    padding: 40px 0;
+}
+
+section.bg-white {
+    padding: 40px 0;
 }
 
 .my-img-container {
     max-width: 200px;
+}
+
+.bg-green>.row h1 {
+    font-size: 44px;
+}
+
+.star {
+    text-align: center;
+    padding: 5px 0 10px 0;
+}
+
+.star>img {
+    margin: 0 15px;
+}
+
+.star>hr {
+    width: 10%;
+    border: 1.5px solid;
+    border-radius: 5px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bg-green .center-block>p {
+    font-size: 16px;
+}
+
+.text-blue {
+    color: #2C3E50;
+}
+
+.star .color-white {
+    border-color: white;
+    background-color: white;
+}
+
+.star .color-blue {
+    border-color: #2C3E50;
+    background-color: #2C3E50;
+}
+
+.btn-outline-white {
+    margin-top: 20px;
+    border: 1px solid white;
+    background-color: transparent;
+}
+
+.form-control {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+.btn-light-green {
+    margin-top: 10px;
+    background-color: #1ABC9C;
+    color: white;
+}
+
+.bg-dark {
+    background-color: #3A546D;
+}
+
+.bg-dark .row.center-block.container div.nested {
+    margin: 40px 0;
+}
+
+.bg-dark a {
+    color: #1ABC9C;
+    font-weight: bold;
+}
+
+.bg-dark div.square {
+    display: inline-block;
+    margin: 0 3px;
+    border: 1px solid white;
+    padding: 10px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+footer {
+    min-height: 70px;
+    background-color: #2C3E50;
+    line-height: 70px;
+    font-size: 12px;
 }
